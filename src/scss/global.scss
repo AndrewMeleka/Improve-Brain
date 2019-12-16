@@ -1,0 +1,52 @@
+@import "helpers/variables";
+
+// Default styles
+body{
+  background-color: $black !important;
+  color: $offWhite !important;
+}
+button {
+  text-transform: capitalize;
+}
+a{
+  &:hover{
+    text-decoration: none !important;
+  }
+}
+.card{
+  color: $black !important;
+}
+.brain-bg {
+  background-color: $blue !important;
+}
+.brand {
+  color: #fff !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 18px;
+}
+.specialTxt{
+  color: $offBlack;
+}
+#brain-content {
+  > * {
+    margin: 5% 0;
+  }
+  a {
+    color: $blue ;
+    transition: .5s ease;
+    &:hover {
+      color: $sky ;
+    }
+  }
+  .introTxt {
+    h3 {
+      text-transform: capitalize;
+    }
+  }
+}
+.whiteTxt{
+  color: $white !important;
+}
